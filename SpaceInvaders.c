@@ -278,7 +278,7 @@ int main(void){
 
   while(1){
 		Start_Prompt();
-			while(game_s==OVER){}; //Starts with over because it is not beginning
+			while(game_s==OVER){}; //Starts with over
       
 			Game_Init(); // all sprites: 3 sprites
 			Draw();
